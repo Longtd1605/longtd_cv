@@ -1,0 +1,51 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventryp
+    {Image Restoration} % Title
+    {
+      \begin{cvitems}
+        \item {\textbf{Objective:} Develop a deep learning system to restore and enhance degraded facial images.}
+        \item {\textbf{Approach:} Applied semi-supervised learning combining variational autoencoders (VAEs) and adversarial learning to map degraded and clean images into a shared latent space, followed by latent-space transformation for restoration.}
+        \item {\textbf{Training set:} 81 grayscale historical photos (collected from HPC Bristol Archive), 8 old color (RGB) photos (from test\_image folder in Microsoft – Bringing Old Photos Back to Life), 1000 images from the Pascal VOC 2012 dataset.}
+        \item {\textbf{Test set:} 1401 celebrity images from the IMDB-WIKI dataset for evaluation.}
+        \item {\textbf{Evaluation Metrics:} PSNR, SSIM.}
+        \item {\textbf{Technologies:} Python, PyTorch, OpenCV, NumPy}
+        \item {\textbf{Github:} \href{https://github.com/Longtd1605/Project_CS114}{https://github.com/Longtd1605/Project\_CS114}} % Github
+      \end{cvitems}
+      \vspace{0.5cm}
+    }
+  \cventryp
+    {Image Captioning} % Title
+    {
+      \begin{cvitems}
+        \item {\textbf{Objective:} Build a deep learning model that generates concise, natural language captions describing the content of an input image.}
+        \item {\textbf{Approach:} Combined CLIP for image–text representation, a Mapping Network (MLP/Transformer) for embedding alignment, and GPT-2 for caption generation.}
+        \item {\textbf{Dataset:} COCO 2014 dataset with 80000 training images and 5000 validation images.}
+        \item {\textbf{Evaluation Metrics:} BLEU, METEOR, CIDEr, SPICE.}
+        \item {\textbf{Technologies:} Python, PyTorch, CLIP, GPT-2, Transformers.}
+        \item {\textbf{Github:} \href{https://github.com/Longtd1605/CLIP-prefix-captioning}{https://github.com/Longtd1605/CLIP-prefix-captioning}} % Github
+      \end{cvitems}
+      \vspace{0.7cm}
+    }
+  \cventryp
+    {Note App} % Title
+    {
+      \begin{cvitems}
+        \item {\textbf{Description:} Build a note-taking application with basic features such as creating notes, editing notes, sharing notes as PDF or text messages, saving notes to favorites, deleting, and restoring deleted notes. Additionally, develop extra features like adding images to notes, detecting and accessing links within the notes.}
+        \item {\textbf{Technologies:} JavaScript, NodeJs, React Native, Docker, Expo}
+        \item {\textbf{Github:} \href{https://github.com/Longtd1605/Note-App}{https://github.com/Longtd1605/Note-App}} % Github
+      \end{cvitems}
+      \vspace{0.5cm}
+    }
+%---------------------------------------------------------
+\end{cventries}
